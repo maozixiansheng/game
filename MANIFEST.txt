@@ -1,0 +1,69 @@
+倒爷修仙传 — 交付包文件清单
+生成时间: 2026-10-01
+================================================================
+
+## 一、脚本文件 (scripts/)
+
+路径                                       行数   字节  MD5
+----------------------------------------------------------------------------------------------------
+scripts/config/Settings.lua                    3289   175939  bbcc37e84e5ec8be6ce6dd9ad78b0084
+scripts/config/Theme.lua                        212     7218  422a1da4734123b923b38e4736a7790e
+scripts/game/Combat.lua                        1059    41362  fa94d2d7d73f6b8f7d838e7cc20bc222
+scripts/game/Cultivation.lua                    418    15140  4d39ddc7a7858e49c0285c9542a199d2
+scripts/game/Market.lua                         514    19182  da7741b8cfa2847e471085bd8a9304bb
+scripts/game/Tutorial.lua                       395    11955  2f925cf1b1c7fc63956b5ea81178d536
+scripts/main.lua                                 23      575  e8077a2bb0d0b525e1aa0202b8c7e3a5
+scripts/network/Activity.lua                    685    23332  56578ba91542dc9a85d842f35c5bf140
+scripts/network/BattlefieldMap.lua             1421    51743  b30fece88b4bb62e91a664ad56746777
+scripts/network/Client.lua                    13786   559298  9c6487cce180c72813b86874e8a47e67
+scripts/network/EntryFlow.lua                   656    19706  82995bbed7d8ca5fe38653774701d6df
+scripts/network/Quest.lua                       457    16657  e3c0c32512733c6a8e72d0b6e114f2b6
+scripts/network/Server.lua                     9648   387908  b62f764a9cb06a35799e947cb6071a76
+scripts/network/Shared.lua                      493    19226  a938974dd16f89765c790cc369dc0cfe
+scripts/network/StrongholdPanel.lua             371    13298  dc3cc893362031e64de7d57fe024008b
+scripts/network/TitlePanel.lua                  162     5907  16b6bce50c8b4b28962afba4990c2518
+----------------------------------------------------------------------------------------------------
+脚本合计                               33589 行
+
+## 二、资源文件 (assets/)
+
+路径                                                   字节  MD5
+----------------------------------------------------------------------------------------------------
+assets/Fonts/WenKai-Light.ttf                            938523  1ccc430b119f550866ba03b313e4e112
+assets/Fonts/WenKai-Regular.ttf                          776302  8e58cf4d22aff6d6aafb93378811e84f
+assets/audio/music_1780329458038.ogg                    4607618  72da800d44352a43a50c6c86dc0d7b7d
+assets/audio/music_1780330016001.ogg                    3050531  7282eb53cfad03de71795cdcdbc96af3
+assets/audio/sfx/sfx_attack.ogg                           15459  9271c55ead49f3e0e426e919faf9e7da
+assets/audio/sfx/sfx_crit.ogg                             18110  8536ae7db597cb4e6b793fa81bb376fe
+assets/audio/sfx/sfx_defeat.ogg                           30141  169fb0ed241051a655e379baf512204f
+assets/audio/sfx/sfx_hit.ogg                              13220  a13fc5d1e42c1eb342abbd5eb5e5bec9
+assets/audio/sfx/sfx_victory.ogg                          43773  492b0459ae05a23bf782de4b32cd2d76
+assets/image/bg_ink_paper_20260605054113.png             468241  98ecae42fb270448faf46505d4ae34e3
+assets/image/bg_scroll_panel_20260605054200.png          492070  237d761c8e561fe722a6e45b62ef3530
+assets/image/edited_game_icon_final_20260605181817.png     698831  db90f666d2eb96553c72660d913bd0a5
+assets/image/game_icon_xiuxian_20260605181504.png        692165  e463b40f9c264f72f751ff67cf9033b7
+assets/image/logo_transparent_20260605190937.png         174523  c1fd77699035fa71a7742da0033bc392
+assets/image/m_attack_20260525120347.png                 119928  988b087aefd0af86fee7bf47d29b26f1
+assets/image/m_hurt_20260525120345.png                    88086  c2cc100f409ad3f6456255ae84087d42
+assets/image/m_idle_20260525120234.png                    69705  fe27e4e937f40af19ef2a475e15cddb9
+assets/image/m_run_20260525120348.png                     82236  39747f3bd3c9d891e38d64968bc09a95
+assets/image/p_attack_20260525120346.png                  86808  8833c43337128dddad17e13e791fd11b
+assets/image/p_hurt_20260525120348.png                    91430  366704177f99bfb3a4dc193cd2d24777
+assets/image/p_idle_20260525120201.png                    87509  97eb88524622d4ea5c349656e2f7500d
+assets/image/p_run_20260525120349.png                     83251  e7e29b5e08b9d63a8001558cbb552996
+assets/image/title_logo_20260605174152.png               821127  9b25c2b565d5cad52227e8f71ca22a0d
+assets/image/title_seal_style_20260605174951.png         554266  204599e5c7f9231d4de49be6c104e921
+assets/image/welcome_bg_20260605173711.png              2164666  e575757c47680f06b50178c1bc6ba246
+----------------------------------------------------------------------------------------------------
+资源合计: 25 个文件, 16M
+
+## 三、配置文件 (.project/)
+
+  .project/project.json   - 入口配置(双端入口 main.lua)
+  .project/settings.json  - 多人模式 + 构建配置
+
+## 四、说明文档
+
+  README.md     - 交付总览
+  MIGRATION.md  - 迁移指南
+  MANIFEST.txt  - 本文件

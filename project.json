@@ -1,0 +1,7 @@
+{
+  "$schema": "../schemas/project.schema.json",
+  "entry": "main.lua",
+  "entry@client": "main.lua",
+  "entry@server": "main.lua",
+  "version": "1.0.0"
+}
